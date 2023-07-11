@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>count_js</title>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/confetti.css" />
+    <link rel="stylesheet" href="css/countdown.css">
+  </head>
+  <body>
+    <section id="timer-section">
+      <div class="title">
+        <img src="img/STD.png" />
+      </div>
+
+      <div class="count">
+        <div class="count_down">
+          <div>
+            <b class="numbers date"></b>
+            <b>Date</b>
+            <a href="#">
+              <i class="fa-solid fa-circle"></i><br />
+              <i class="fa-solid fa-circle"></i>
+            </a>
+          </div>
+
+          <div>
+            <b class="numbers month"></b>
+            <b>Month</b>
+            <a href="#">
+              <i class="fa-solid fa-circle"></i><br />
+              <i class="fa-solid fa-circle"></i>
+            </a>
+          </div>
+
+          <div>
+            <b class="numbers year"></b>
+            <b>Year</b>
+          </div>
+        </div>
+      </div>
+
+      <!-- time_section -->
+
+      <div class="main">
+        <!-- <h1>Until new beginnings</h1> -->
+        <div class="countdown">
+          <div>
+            <span class="number weeks"></span>
+            <span>Weeks</span>
+          </div>
+          <div>
+            <span class="number days"></span>
+            <span>Days</span>
+          </div>
+          <div>
+            <span class="number hours"></span>
+            <span>Hours</span>
+          </div>
+          <div>
+            <span class="number minutes"></span>
+            <span>Minutes</span>
+          </div>
+          <div>
+            <span class="number seconds"></span>
+            <span>Seconds</span>
+          </div>
+        </div>
+        <h2 id="demo"></h2>
+      </div>
+    </section>
+
+    <canvas id="confetti" class="hidden"></canvas>
+
+    <section id="confetti-section" class="hidden">
+      <h2>
+        Congratulations<br />
+      </h2>
+      <h1>Happy Anniversery</h1>
+    </section>
+
+
+    <!-- 1_to_10_countdown -->
+  <div class=" clock hidden">
+   
+  </div>
+    
+
+    <!-- js  -->
+    <!-- <script src="js/scriptStorage.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.9.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="js/confetti.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

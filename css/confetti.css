@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+#confetti-section {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 5rem;
+  /* background-color: #ddf0e900; */
+}
+
+#confetti-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#confetti-section h1,#confetti-section h2 {
+  text-align: center;
+  margin: 0;
+  font-family: "Sen", sans-serif;
+}
+
+#confetti {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
